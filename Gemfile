@@ -59,4 +59,4 @@ group :test do
 end
 
 gem "inertia_rails", "~> 3.9"
-gem 'devise'
+gem "devise"
