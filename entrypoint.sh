@@ -7,6 +7,7 @@ until pg_isready -h db -p 5432 -U postgres; do
   sleep 2
 done
 
+bundle install
 bundle exec rails db:prepare
 
 exec "$@"
