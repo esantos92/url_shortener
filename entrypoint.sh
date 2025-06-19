@@ -9,5 +9,7 @@ done
 
 bundle install
 bundle exec rails db:prepare
+rm -f /app/tmp/pids/server.pid
 
-exec "$@"
+#exec "$@"
+exec bin/dev
