@@ -77,7 +77,7 @@ jobs:
         run: bin/rails db:test:prepare
 
       - name: Run system tests
-        run: rspec --format documentation --color
+        run: bundle exec rspec --format documentation --color
       - name: Keep screenshots from failed system tests
         uses: actions/upload-artifact@v4
         if: failure()
