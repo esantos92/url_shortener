@@ -47,8 +47,8 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
   gem "vite_rails"
   gem "factory_bot_rails"
-  gem 'rspec-rails', '~> 8.0.0'
-  gem 'faker'
+  gem "rspec-rails", "~> 8.0.0"
+  gem "faker"
 end
 
 group :development do
@@ -60,7 +60,7 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
-  gem 'shoulda-matchers', '~> 6.0'
+  gem "shoulda-matchers", "~> 6.0"
 end
 
 gem "inertia_rails"
